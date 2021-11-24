@@ -1,0 +1,29 @@
+.header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 80px;
+	z-index: 1;
+	padding: 0 120px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	img{
+		padding: 10px;
+		height: 30px;
+	}
+
+	a{
+		color: white;
+		margin-left: 20px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-weight: bold;
+
+		&:hover{
+			color: rgba(255, 255, 255, 0.4);
+		}
+	}
+}
